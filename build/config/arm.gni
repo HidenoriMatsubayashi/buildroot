@@ -53,10 +53,6 @@ if (current_cpu == "arm" || current_cpu == "arm64") {
       arm_tune = "generic-armv7-a"
     }
 
-    if (arm_float_abi == "") {
-      arm_float_abi = "softfp"
-    }
-
     arm_use_thumb = true
 
     if (arm_use_neon) {
